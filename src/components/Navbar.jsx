@@ -26,6 +26,9 @@ const Navbar = () => {
             Avishkar &nbsp;<span className="sm:block hidden">| CS Enthusiast</span>
           </p>
         </Link>
+
+
+        
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li

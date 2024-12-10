@@ -15,13 +15,12 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    gpm,
+    dmce,
+    scrollhack,
+    escout,
+    todesktopclone,
+    twogoodco,
     threejs,
   } from "../assets";
   
@@ -46,15 +45,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Backend Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Full-Stack Developer",
       icon: backend,
     },
     {
-      title: "Video Editing",
+      title: "UI/UX Design",
       icon: creator,
     },
   ];
@@ -110,57 +109,47 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full-Stack Developer",
+      company_name: "Hackathon 2.0, Datta Meghe College of Engineering",
+      icon: dmce, 
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 20-21, 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed 'Meeting Mastery,' an AI-powered web application designed to enhance meeting integrity, productivity, and inclusivity, as part of the MERN Marvels team.",
+        "Collaborated with team members Aryan Patil, Ayush Sonawane, and Tejas Babar to create a seamless and intuitive user experience using the MERN stack.",
+        "Participated in a highly engaging and educational environment, gaining invaluable experience in networking, skill development, and collaborative problem-solving.",
       ],
     },
+    
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full-Stack Developer",
+      company_name: "Scroll Hacks 2024",
+      icon: scrollhack, 
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "September 27-29, 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participated in Scroll Hacks 2024, showcasing innovative solutions and collaborating with peers to create impactful projects.",
+        "Contributed to the development of a full-stack web application using the MERN stack, focusing on functionality and user experience.",
+        "Demonstrated creativity, dedication, and problem-solving skills, earning a Certificate of Appreciation for outstanding participation.",
       ],
     },
+    
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Full-Stack Developer",
+      company_name: "eScout - College Major Project",
+      icon: gpm,
+      iconBg: "#383E56",
+      date: "August 2024 - October 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led the development of eScout, a search engine platform designed to aggregate and extract relevant information from multiple websites.",
+        "Implemented dynamic URL selection and query-based web crawling using Cheerio and Node.js for data extraction.",
+        "Built the frontend using React.js with Axios for API integration, ensuring a responsive and user-friendly interface.",
+        "Developed a MongoDB-based system to store user-specific search histories, offering a personalized experience.",
+        "Collaborated with a team to refine the project based on feedback, enhancing features like history storage and dynamic crawling.",
       ],
     },
+    
+  
   ];
   
   const testimonials = [
@@ -192,9 +181,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "eScout",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A search engine platform designed to aggregate and extract relevant information from multiple websites, providing users with efficient, summarized, and accurate results based on their queries.",
       tags: [
         {
           name: "react",
@@ -205,55 +194,66 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "node.js",
+          color: "orange-text-gradient",
+        },
+        {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: escout, // Replace 'escout' with your actual image variable or path
+      source_code_link: "https://github.com/Avishkar68/eScout", // Replace with your actual GitHub repository link
+    },
+    
+    {
+  name: "ToDesktop ",
+  description:
+    "A web-based clone of the ToDesktop platform that replicates its design and functionality, allowing users to experience converting web applications into desktop apps with a seamless interface.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      name: "tailwind",
+      color: "pink-text-gradient",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      name: "node.js",
+      color: "orange-text-gradient",
     },
+  ],
+  image: todesktopclone, // Add your image path here
+  source_code_link: "https://github.com/Avishkar68/ToDesktop-Frontend-Clone", // Replace with your actual GitHub repository link
+},
+
+{
+  name: "TwoGoodCo",
+  description:
+    "A visually appealing web-based clone of the Twogoodco website, featuring smooth animations and interactive scrolling effects using GSAP and Locomotive Scroll for an enhanced user experience.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "gsap",
+      color: "green-text-gradient",
+    },
+    {
+      name: "locomotive",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: twogoodco, // Add your image path here
+  source_code_link: "https://github.com/Avishkar68/twogoodco_clone", // Replace with your actual GitHub repository link
+},
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };
